@@ -10,7 +10,6 @@ class Program
         Console.Write("Enter second number (m): ");
         int m = Convert.ToInt32(Console.ReadLine());
 
-        // اطمینان از اینکه n کمتر از m باشد
         if (n > m)
         {
             int temp = n;
